@@ -3,7 +3,7 @@ ARG GROUPID
 
 FROM node:lts-alpine3.18
 
-RUN npm install -g @vue/cli
+RUN npm install -g @vue/cli-service
 
 # RUN mkdir -p /var/www/app \
 #     && chown node:node -R /var/www
